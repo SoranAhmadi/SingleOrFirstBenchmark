@@ -2,7 +2,7 @@
 using EFCore.BulkExtensions;
 using SingleOrFirstBenchmark;
 //await InitDb();
-BenchmarkRunner.Run<CampareBenchMark>();
+BenchmarkRunner.Run<CompareBenchMark>();
 
 
 

@@ -2,7 +2,7 @@
 
 namespace SingleOrFirstBenchmark
 {
-    public class CampareBenchMark
+    public class CompareBenchMark
     {
         private string SepecficStudentNumber = "360252724";
 

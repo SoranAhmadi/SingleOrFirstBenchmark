@@ -5,7 +5,8 @@ namespace SingleOrFirstBenchmark
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=.;Database=SingleOrFirstBenchmark1;User Id=sa;Password=SoranAhmadi@1992;MultipleActiveResultSets=true;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=.;Database=SingleOrFirstBenchmark1;User Id=sa;" +
+                "Password=SoranAhmadi@1992;MultipleActiveResultSets=true;TrustServerCertificate=True");
         }
 
         public DbSet<Student> Student { get; set; }
